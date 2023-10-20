@@ -1,0 +1,147 @@
+
+*{
+    margin: 5px;
+    border-radius:10px;
+}
+   :root{
+    --anarenk: bisque;
+    --ikinci-renk: bisque;
+    --sinir-genisligi:10px;
+
+   }
+body{
+    background-color: bisque;
+    background-image: url(desktop-wallpaper-belgrade.jpg);
+    background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+p{
+    color: green;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    opacity: 0.6;
+    text-align: center;
+    text-decoration: none;
+
+   }
+
+   .ozel-p{
+    background-color: blanchedalmond;
+    color: green;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+    letter-spacing: 1mm;
+    word-spacing: 0.2cm;
+   font-size: 1.2rem;
+   font-style: italic;
+   font-weight: bold;
+   }
+
+   a:hover{
+    background-color: yellow;
+    color: red;
+}
+a:active{
+    background-color: blue;
+    color: yellow;
+}
+
+ul{
+    background-color: var(--anarenk);
+    opacity: 1;
+   
+}
+li{
+    background-color: coral;
+    margin: 5px;
+}
+.sinif-1{
+    list-style-type: armenian;
+    list-style-position: inside;
+    border: 5px green groove;
+    
+
+    margin: 10px 30px;
+    padding: 10px 3px;
+
+    width: 300px;
+    height: 200px;
+
+    max-width: 400px;
+    max-height: 300px;
+
+    min-width: 250px;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: auto;
+
+    
+}
+
+.sinif-1:hover{
+    visibility: hidden;
+}
+
+
+.sinif-2{
+    list-style-type: lower-alpha;
+    border: 5px green outset;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    max-width: 400px;
+    max-height: 300px;
+
+    min-width: 250px;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+
+}
+
+.sinif-2:hover{
+    visibility: collapse;
+}
+
+
+
+
+
+
+div span p{
+    color: black;
+    background-color: aquamarine;
+}
+
+
+
+@media (max-width:768px) {
+    .sinif-1{
+        background-color: darkslateblue;
+        width: 200px;
+        height: 50px;
+        opacity: 1;
+}
+.sinif-2{
+    background-color: darkslateblue;
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+}
+
+p{
+    background-color: cornflowerblue;
+   opacity: 1;
+}
+}
+
+
+
